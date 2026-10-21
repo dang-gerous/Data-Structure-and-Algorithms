@@ -5,87 +5,73 @@ struct Node
 {
     int data;
     Node *next;
-    Node(int val) : data(val), next(nullptr) {}
 };
-
-void pushBack(Node *&head, Node *&tail, int val)
-{
-    Node *newNode = new Node(val);
-    if (!head)
-    {
-        head = tail = newNode;
-    }
-    else
-    {
-        tail->next = newNode;
-        tail = newNode;
-    }
-}
-
-int removeElements(Node *&head, int x)
-{
-    Node dummy(0);
-    dummy.next = head;
-    Node *prev = &dummy;
-    Node *curr = head;
-    int count = 0;
-
-    while (curr != nullptr)
-    {
-        if (curr->data == x)
-        {
-            prev->next = curr->next;
-            Node *temp = curr;
-            curr = curr->next;
-            delete temp;
-            count++;
-        }
-        else
-        {
-            prev = curr;
-            curr = curr->next;
-        }
-    }
-
-    head = dummy.next;
-    return count;
-}
-
-void printList(Node *head)
-{
-    Node *curr = head;
-    while (curr != nullptr)
-    {
-        cout << curr->data << " ";
-        curr = curr->next;
-    }
-    cout << "\n";
-}
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
     int n;
     if (!(cin >> n))
         return 0;
 
-    Node *head = nullptr;
-    Node *tail = nullptr;
+    Node *head = NULL; 
+    Node *tail = NULL; 
 
+    // 1. Nhập n phần tử và nối đuôi nhau thành danh sách
     for (int i = 0; i < n; i++)
     {
         int val;
         cin >> val;
-        pushBack(head, tail, val);
+
+        // Tạo ra một bạn mới
+        Node *p = new Node();
+        p->data = val;
+        p->next = NULL;
+
+        if (head == NULL)
+        {
+            // Nếu hàng chưa có ai, bạn này vừa là đầu vừa là đuôi
+            head = tail = p;
+        }
+        else
+        {
+            // Nối bạn mới vào sau lưng bạn đuôi, rồi bạn mới biến thành đuôi
+            tail->next = p;
+            tail = p;
+        }
     }
 
     int x;
-    cin >> x;
+    cin >> x; // Số cần xóa
 
-    removeElements(head, x);
-    printList(head);
+    // 2. Xóa các số x nằm liên tiếp ở ĐẦU hàng
+    while (head != NULL && head->data == x)
+    {
+        head = head->next;
+    }
+
+    // 3. Xóa các số x nằm ở GIỮA hoặc CUỐI hàng
+    Node *p = head;
+    while (p != NULL && p->next != NULL)
+    {
+        if (p->next->data == x)
+        {
+            // Bạn đằng sau mang số x -> bắc cầu qua đầu bạn đó
+            p->next = p->next->next;
+        }
+        else
+        {
+            // Không phải số x -> bước chân lên kiểm tra tiếp
+            p = p->next;
+        }
+    }
+
+    // 4. In kết quả: Đi từ đầu hàng đến cuối hàng và in ra
+    p = head;
+    while (p != NULL)
+    {
+        cout << p->data << " ";
+        p = p->next; // Bước tiếp sang người sau
+    }
 
     return 0;
 }
