@@ -1,7 +1,7 @@
 # Bảng Tiến Độ Ôn Thi DSA (Mục tiêu 05/12: 2–3 AC)
 
-## Tiến độ: `[██░░░░░░░░░░░░░░░░░░]` **9.5%** (4/42 bài)
-- **Bài tiếp theo cần làm:** #5 `DSA06010` — SẮP XẾP CHỮ SỐ
+## Tiến độ: `[██░░░░░░░░░░░░░░░░░░]` **11.9%** (5/42 bài)
+- **Bài tiếp theo cần làm:** #6 `DSA06022` — SỐ NHỎ NHẤT VÀ NHỎ THỨ HAI
 
 | # | Xong | Mã bài | Tên bài trên Code PTIT | Chủ đề | Ngày AC |
 | :-: | :-: | :--- | :--- | :--- | :-: |
@@ -9,7 +9,7 @@
 | 2 | ✅ | [DSA06001](https://code.ptit.edu.vn/submit/DSA06001) | SẮP XẾP XEN KẼ | 1. Sắp xếp | 06/11 |
 | 3 | ✅ | [DSA06002](https://code.ptit.edu.vn/submit/DSA06002) | SẮP XẾP THEO GIÁ TRỊ TUYỆT ĐỐI | 1. Sắp xếp | 06/11 |
 | 4 | ✅ | [DSA06006](https://code.ptit.edu.vn/submit/DSA06006) | SẮP XẾP [0 1 2] | 1. Sắp xếp | 06/11 |
-| 5 | ⬜ | [DSA06010](https://code.ptit.edu.vn/submit/DSA06010) | SẮP XẾP CHỮ SỐ | 1. Sắp xếp | — |
+| 5 | ✅ | [DSA06010](https://code.ptit.edu.vn/submit/DSA06010) | SẮP XẾP CHỮ SỐ | 1. Sắp xếp | 06/11 |
 | 6 | ⬜ | [DSA06022](https://code.ptit.edu.vn/submit/DSA06022) | SỐ NHỎ NHẤT VÀ NHỎ THỨ HAI | 1. Sắp xếp | — |
 | 7 | ⬜ | [DSA06009](https://code.ptit.edu.vn/submit/DSA06009) | CẶP SỐ TỔNG BẰNG K | 1. Sắp xếp | — |
 | 8 | ⬜ | [DSA06004](https://code.ptit.edu.vn/submit/DSA06004) | HỢP VÀ GIAO CỦA HAI DÃY SỐ 1 | 1. Sắp xếp | — |
