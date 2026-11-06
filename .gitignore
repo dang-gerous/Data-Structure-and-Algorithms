@@ -1,0 +1,13 @@
+.build/
+*.out
+*.exe
+*.dSYM/
+.DS_Store
+input.txt
+expected.txt
+practice.cpp
+run.py
+problem_titles.py
+.vscode/
+.agents/
+day01_*.cpp
