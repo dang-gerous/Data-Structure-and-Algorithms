@@ -1,5 +1,6 @@
 .build/
 .chrome-ptit-profile/
+.chrome-ptit-auto/
 *.out
 *.exe
 *.dSYM/
