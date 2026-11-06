@@ -176,7 +176,7 @@ Mark every problem right after solving:
 - 🟢 **Green:** Blank-screen `AC` on 1st try (< 20 mins) → **Exam-ready!**
 
 ### Week 1 (Nov 6 – Nov 12): C++ STL Bridge + Sorting (`DSA06`) + Greedy (`DSA03`)
-- [ ] **Day 1 (Nov 6):** `day01_closest_pairs.cpp` (`BRT`/`DSA06031`), `DSA06001` (Sắp xếp xen kẽ), `DSA06002` (Sắp xếp theo trị tuyệt đối) — *Status:* 🔴
+- [ ] **Day 1 (Nov 6):** ✅ `DSA06046 — CHÊNH LỆCH NHỎ NHẤT` (**AC** on Code PTIT `#18097677` + GitHub!), next: `DSA06001` (Sắp xếp xen kẽ), `DSA06002` (Sắp xếp theo trị tuyệt đối) — *Status:* 🔴 (Blind re-code tomorrow!)
 - [ ] **Day 2 (Nov 7):** *[D+1 Blind Re-code Day 1]* + `DSA06010`, `DSA06022`
 - [ ] **Day 3 (Nov 8):** `DSA06009` (Cặp số tổng bằng K), `DSA06014`, `DSA06044`
 - [ ] **Day 4 (Nov 9):** *[D+1/D+3 Review]* + Binary search `lower_bound` drills (`DSA06015` / `DSA06031`)

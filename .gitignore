@@ -9,8 +9,12 @@ input.txt
 expected.txt
 practice.cpp
 run.py
+update_progress.py
+progress.json
+PROGRESS.html
 problem_titles.py
 ptit_submit_cdp.mjs
+fetch_problem.mjs
 .vscode/
 .agents/
 day01_*.cpp
