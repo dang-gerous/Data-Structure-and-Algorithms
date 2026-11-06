@@ -1,4 +1,5 @@
 .build/
+.chrome-ptit-profile/
 *.out
 *.exe
 *.dSYM/
@@ -8,6 +9,7 @@ expected.txt
 practice.cpp
 run.py
 problem_titles.py
+ptit_submit_cdp.mjs
 .vscode/
 .agents/
 day01_*.cpp
