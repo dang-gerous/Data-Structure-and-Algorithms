@@ -24,7 +24,6 @@
  * Cmd + Shift + B!
  */
 
-#include <algorithm>
 #include <climits>
 #include <iostream>
 #include <vector>
