@@ -1,7 +1,7 @@
 # Bảng Tiến Độ Ôn Thi DSA (Mục tiêu 05/12: 2–3 AC)
 
-## Tiến độ: `[████░░░░░░░░░░░░░░░░]` **21.4%** (9/42 bài)
-- **Bài tiếp theo cần làm:** #10 `DSA06015` — MERGE SORT
+## Tiến độ: `[█████░░░░░░░░░░░░░░░]` **23.8%** (10/42 bài)
+- **Bài tiếp theo cần làm:** #11 `DSA03001` — ĐỔI TIỀN
 
 | # | Xong | Mã bài | Tên bài trên Code PTIT | Chủ đề | Ngày AC |
 | :-: | :-: | :--- | :--- | :--- | :-: |
@@ -14,7 +14,7 @@
 | 7 | ✅ | [DSA06009](https://code.ptit.edu.vn/submit/DSA06009) | CẶP SỐ TỔNG BẰNG K | 1. Sắp xếp | 09/11 |
 | 8 | ✅ | [DSA06004](https://code.ptit.edu.vn/submit/DSA06004) | HỢP VÀ GIAO CỦA HAI DÃY SỐ 1 | 1. Sắp xếp | 10/11 |
 | 9 | ✅ | [DSA06044](https://code.ptit.edu.vn/submit/DSA06044) | SẮP XẾP CHẴN LẺ | 1. Sắp xếp | 11/11 |
-| 10 | ⬜ | [DSA06015](https://code.ptit.edu.vn/submit/DSA06015) | MERGE SORT | 1. Sắp xếp | — |
+| 10 | ✅ | [DSA06015](https://code.ptit.edu.vn/submit/DSA06015) | MERGE SORT | 1. Sắp xếp | 16/11 |
 | 11 | ⬜ | [DSA03001](https://code.ptit.edu.vn/submit/DSA03001) | ĐỔI TIỀN | 2. Tham lam | — |
 | 12 | ⬜ | [DSA03002](https://code.ptit.edu.vn/submit/DSA03002) | NHẦM CHỮ SỐ | 2. Tham lam | — |
 | 13 | ⬜ | [DSA03003](https://code.ptit.edu.vn/submit/DSA03003) | TÌM MAX | 2. Tham lam | — |
