@@ -1,7 +1,7 @@
 # Bảng Tiến Độ Ôn Thi DSA (Mục tiêu 05/12: 2–3 AC)
 
-## Tiến độ: `[██████░░░░░░░░░░░░░░]` **31.0%** (13/42 bài)
-- **Bài tiếp theo cần làm:** #14 `DSA03004` — TỔNG NHỎ NHẤT
+## Tiến độ: `[███████░░░░░░░░░░░░░]` **33.3%** (14/42 bài)
+- **Bài tiếp theo cần làm:** #15 `DSA03005` — CHIA MẢNG THÀNH HAI MẢNG CON CÓ TỔNG LỚN NHẤT
 
 | # | Xong | Mã bài | Tên bài trên Code PTIT | Chủ đề | Ngày AC |
 | :-: | :-: | :--- | :--- | :--- | :-: |
@@ -18,7 +18,7 @@
 | 11 | ✅ | [DSA03001](https://code.ptit.edu.vn/submit/DSA03001) | ĐỔI TIỀN | 2. Tham lam | 18/11 |
 | 12 | ✅ | [DSA03002](https://code.ptit.edu.vn/submit/DSA03002) | NHẦM CHỮ SỐ | 2. Tham lam | 18/11 |
 | 13 | ✅ | [DSA03003](https://code.ptit.edu.vn/submit/DSA03003) | TÌM MAX | 2. Tham lam | 18/11 |
-| 14 | ⬜ | [DSA03004](https://code.ptit.edu.vn/submit/DSA03004) | TỔNG NHỎ NHẤT | 2. Tham lam | — |
+| 14 | ✅ | [DSA03004](https://code.ptit.edu.vn/submit/DSA03004) | TỔNG NHỎ NHẤT | 2. Tham lam | 18/11 |
 | 15 | ⬜ | [DSA03005](https://code.ptit.edu.vn/submit/DSA03005) | CHIA MẢNG THÀNH HAI MẢNG CON CÓ TỔNG LỚN NHẤT | 2. Tham lam | — |
 | 16 | ⬜ | [DSA03008](https://code.ptit.edu.vn/submit/DSA03008) | SẮP XẾP CÔNG VIỆC 1 | 2. Tham lam | — |
 | 17 | ⬜ | [DSA01001](https://code.ptit.edu.vn/submit/DSA01001) | XÂU NHỊ PHÂN KẾ TIẾP | 3. Sinh & Quay lui | — |
