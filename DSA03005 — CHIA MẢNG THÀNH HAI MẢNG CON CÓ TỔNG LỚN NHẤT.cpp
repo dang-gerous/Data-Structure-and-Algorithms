@@ -41,22 +41,13 @@ void solve() {
     sort(a.begin(), a.end());
     int g1 = 0; 
     int g2 = 0; 
-    if (k > n - k) {
+    int m = min(k, n - k);
     for(int i = 1; i <= n; i++) {
-        if(i <= n - k) {
+        if(i <= m) {
             g1 += a[i];
         } else {
         g2 += a[i];
         }
-    }
-    } else {
-    for(int i = 1; i <= n; i++) {
-        if(i <= k) {
-            g1 += a[i];
-        } else {
-        g2 += a[i];
-        }
-    }
     }
 cout << abs(g2 - g1); 
 cout << "\n";
