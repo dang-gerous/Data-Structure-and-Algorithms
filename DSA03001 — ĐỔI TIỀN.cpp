@@ -39,13 +39,9 @@ void solve() {
   int c[] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
   int ans = 0;
   while (n > 0) {
-    if (n < c[i]) {
-      i++;
-    } else {
       ans += n / c[i];
       n %= c[i];
       i++;
-    }
   }
   cout << ans;
   cout << "\n";
